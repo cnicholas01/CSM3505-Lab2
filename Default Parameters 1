@@ -5,6 +5,6 @@ fun main(){
     println(displayAlertMessage(operatingSystem, emailId))
 }
 
-fun displayAlertMessage(OS: String, email: String): String{  //user-defined method to display alert message
+fun displayAlertMessage(OS: String, email: String): String{  //user-defined function to display alert message
     return "There's a new sign-in request on $OS for your Google Account $email."
 }
