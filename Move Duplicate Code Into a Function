@@ -1,27 +1,12 @@
 fun main() {
-  var city = "Ankara"
-  var lowTemp = 27
-  var highTemp = 31
-  var rain = 82
-  println(getCityWeatherForecast(city, lowTemp, highTemp, rain))
+
+  println(getCityWeatherForecast("Ankara", 27,31, 82))
   
-  city = "Tokyo"
-  lowTemp = 32
-  highTemp = 36
-  rain = 10
-  println(getCityWeatherForecast(city, lowTemp, highTemp, rain))
+  println(getCityWeatherForecast("Tokyo", 32, 36, 10))
   
-  city = "Cape Town"
-  lowTemp = 59
-  highTemp = 64
-  rain = 2
-  println(getCityWeatherForecast(city, lowTemp, highTemp, rain))
-  
-  city = "Guatemala City"
-  lowTemp = 50
-  highTemp = 55
-  rain = 7
-  println(getCityWeatherForecast(city, lowTemp, highTemp, rain))
+  println(getCityWeatherForecast("Cape Town", 59, 64, 2))
+ 
+  println(getCityWeatherForecast("Guatemala City", 50, 55, 7))
 }
 
 fun getCityWeatherForecast(city: String, lowTemp: Int, highTemp: Int, rain: Int): String{
