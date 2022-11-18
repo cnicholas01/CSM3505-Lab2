@@ -1,0 +1,9 @@
+fun main() {
+    var discountPercentage: Int = 0 //allow discountPercentage to be re-assigned with a new value
+    var offer: String = "" //allow offer to be re-assigned with a new value
+    val item = "Google Chromecast"
+    discountPercentage = 20
+    offer = "Sale - Up to $discountPercentage% discount on $item! Hurry up!"
+    
+    println(offer)
+}
