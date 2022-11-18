@@ -1,0 +1,6 @@
+fun main() {
+    val numberOfAdults = 20  //set as integer data
+    val numberOfKids = 30  //set as integer data
+    val total = numberOfAdults + numberOfKids //summation of integer values
+    println("The total party size is: $total") 
+}
