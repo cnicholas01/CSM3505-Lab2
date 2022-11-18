@@ -16,10 +16,10 @@ fun main() {
     println("$firstNumber - $thirdNumber = $anotherSub")
 }
 
-fun add(first: Int, second: Int): Int{  //user-defined method which sums up 2 numbers
+fun add(first: Int, second: Int): Int{  //user-defined function which sums up 2 numbers
     return (first+second)
 }
 
-fun subtract(first: Int, second: Int): Int{ //user-defined method which subtracts 2 numbers
+fun subtract(first: Int, second: Int): Int{ //user-defined function which subtracts 2 numbers
     return (first-second)
 }
