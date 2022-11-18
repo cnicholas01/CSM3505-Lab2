@@ -4,3 +4,5 @@ fun main() {
     val total = numberOfAdults + numberOfKids //summation of integer values
     println("The total party size is: $total") 
 }
+
+//Set numberOfAdults and numberOfKids as integer values so that they won't be concatenated into one string.
