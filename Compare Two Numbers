@@ -1,0 +1,22 @@
+fun main(){
+    var timeSpentToday = 300
+    var timeSpentYesterday = 250
+    println(compareTime(timeSpentToday, timeSpentYesterday))
+    
+    timeSpentToday = 300
+    timeSpentYesterday = 300
+    println(compareTime(timeSpentToday, timeSpentYesterday))
+    
+    timeSpentToday = 200
+    timeSpentYesterday = 220
+    println(compareTime(timeSpentToday, timeSpentYesterday))
+}
+
+fun compareTime(timeToday: Int, timeYesterday: Int): Boolean{
+    if(timeToday>timeYesterday){
+        return true
+    }
+    else{
+        return false
+    }
+}
