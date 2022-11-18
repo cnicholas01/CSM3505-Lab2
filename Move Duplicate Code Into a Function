@@ -1,0 +1,29 @@
+fun main() {
+  var city = "Ankara"
+  var lowTemp = 27
+  var highTemp = 31
+  var rain = 82
+  println(getCityWeatherForecast(city, lowTemp, highTemp, rain))
+  
+  city = "Tokyo"
+  lowTemp = 32
+  highTemp = 36
+  rain = 10
+  println(getCityWeatherForecast(city, lowTemp, highTemp, rain))
+  
+  city = "Cape Town"
+  lowTemp = 59
+  highTemp = 64
+  rain = 2
+  println(getCityWeatherForecast(city, lowTemp, highTemp, rain))
+  
+  city = "Guatemala City"
+  lowTemp = 50
+  highTemp = 55
+  rain = 7
+  println(getCityWeatherForecast(city, lowTemp, highTemp, rain))
+}
+
+fun getCityWeatherForecast(city: String, lowTemp: Int, highTemp: Int, rain: Int): String{
+    return "City: $city\nLow temperature: $lowTemp, High temperature: $highTemp\nChance of rain: $rain%\n"
+}
