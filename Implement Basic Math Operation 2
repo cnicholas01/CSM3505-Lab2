@@ -1,0 +1,25 @@
+fun main() {
+    val firstNumber = 10
+    val secondNumber = 5
+    val thirdNumber = 8
+    
+    val result = add(firstNumber, secondNumber)
+    val anotherResult = add(firstNumber, thirdNumber)
+    
+    val resultSub = subtract(firstNumber, secondNumber)
+    val anotherSub = subtract(firstNumber, thirdNumber)
+    
+    println("$firstNumber + $secondNumber = $result")
+    println("$firstNumber + $thirdNumber = $anotherResult\n")
+    
+    println("$firstNumber - $secondNumber = $resultSub")
+    println("$firstNumber - $thirdNumber = $anotherSub")
+}
+
+fun add(first: Int, second: Int): Int{  //user-defined method which sums up 2 numbers
+    return (first+second)
+}
+
+fun subtract(first: Int, second: Int): Int{ //user-defined method which subtracts 2 numbers
+    return (first-second)
+}
